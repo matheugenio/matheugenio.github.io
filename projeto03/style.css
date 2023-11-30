@@ -101,7 +101,7 @@ fieldset legend {
 }
 
 .input-wrapper textarea {
-  padding: 0;
+
   height: 168px;
 }
 
@@ -135,8 +135,9 @@ fieldset legend {
 
 .col-3{
   display: flex;
+  gap: 20px;
 }
-.col-3 data{
+.col-3 > div:nth-child(1){
   width: 100%;
 }
 
